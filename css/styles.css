@@ -1,0 +1,63 @@
+/*************************/
+/****** header ***********/
+/*************************/
+header{
+    height: 100svh;
+}
+header .hero{
+    height: calc(100svh - 75px);
+}
+header .hero .container .row img{
+    border: 1px solid;
+    border-radius: 30px;
+}
+/*************************/
+/****** section **********/
+/*************************/
+section{
+    height: 100svh;
+}
+/*************************/
+/****** skill ***********/
+/*************************/
+section.skill .container .row .box{
+    border: 1px solid;
+    border-radius: inherit;
+    box-shadow: .2px 1px 2px rgb(59, 56, 56);
+    width: 80%;
+    height: 65%;
+    background-color: rgb(41, 38, 38);
+    padding: 15px 25px 0 35px; 
+}
+/*************************/
+/****** servies *********/
+/*************************/
+section.service .container .row .progress-box{
+    width: 90%;
+    height: 12%;
+    border: 1px solid;
+    background-color: rgb(41, 38, 38);
+}
+section.service .container .row .box .progress{
+    height: 12px;
+    border-radius: 10px;
+
+}
+section.service .container .row .box .progress .progress-bar{
+    background-color: orange;
+    border-radius: 10px;
+}
+/*************************/
+/****** footer ***********/
+/*************************/
+section.footer .container .row .gmail input{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 60%;
+    padding: 6px 10px;
+    background-color:  rgb(41, 38, 38);
+    color: white;
+}
+section.footer{
+    height: auto;
+}
