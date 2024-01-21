@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Space+Mono&display=swap');
+
+
 body{
     margin: 0;
     padding:0;
-    font-family: sans-serif;
+    font-family: 'Space Mono', monospace;
     font-size: 16px;
 }
-a{
+a,.btn-2{
     color: #444;
     text-decoration: none;
 }
@@ -69,7 +72,7 @@ h6{
     font-size: 34px !important;
 }
 .text-xlarge{
-    font-size: 45px !important;
+    font-size: 40px !important;
 }
 .text-larger{
     font-size: 60px !important;
@@ -459,15 +462,14 @@ h6{
 /******** buttons ********/
 /*************************/
 a.btn, .btn{
-    padding: 8px 30px;
+    padding: 8px 35px;
     border: 1px solid transparent;
     border-radius: 30px;
 }
 a.btn-2, .btn-2{
-    padding: 16px 56px;
-    border: 2px solid white;
-    font-weight: bold;
-    border-radius: 55px;
+    padding: 8px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 a.btn-3, .btn-3{
     padding: 16px 56px;
@@ -475,9 +477,15 @@ a.btn-3, .btn-3{
    font-weight: bold;
     border-radius: 55px;
 }
-a.btn:hover,.btn-2:hover,
+a.btn:hover,.btn:hover,
 .btn:hover{
     background-color: darkgreen !important;
+}
+.btn-2:hover{
+    font-weight: bolder;
+    color: black !important;
+    border: 2px solid black;
+    background-color: white !important;
 }
 /*************************/
 /******** Flexbox ********/

@@ -5,18 +5,13 @@ header{
     height: 100svh;
 }
 header .hero{
-    height: calc(100svh - 75px);
+    height: calc(100svh - 100px);
 }
 header .hero .container .row img{
     border: 1px solid;
     border-radius: 30px;
 }
-/*************************/
-/****** section **********/
-/*************************/
-section{
-    height: 100svh;
-}
+
 /*************************/
 /****** skill ***********/
 /*************************/
@@ -39,13 +34,22 @@ section.service .container .row .progress-box{
     background-color: rgb(41, 38, 38);
 }
 section.service .container .row .box .progress{
-    height: 12px;
+    height: 15px;
     border-radius: 10px;
 
 }
 section.service .container .row .box .progress .progress-bar{
     background-color: orange;
     border-radius: 10px;
+    animation: bars 2.5s 1;
+}
+@keyframes bars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100;
+    }
 }
 /*************************/
 /****** footer ***********/
@@ -57,7 +61,4 @@ section.footer .container .row .gmail input{
     padding: 6px 10px;
     background-color:  rgb(41, 38, 38);
     color: white;
-}
-section.footer{
-    height: auto;
 }
