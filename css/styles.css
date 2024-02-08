@@ -11,6 +11,9 @@ header .hero .container .row img{
     border: 1px solid;
     border-radius: 30px;
 }
+header .hero .container .row img:hover{
+     box-shadow: 0px 0px 18px rgb(212, 202, 202);
+}
 
 /*************************/
 /****** skill ***********/
