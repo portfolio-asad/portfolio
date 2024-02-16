@@ -106,22 +106,22 @@ h6{
 /*************************/
 @media (max-width: 767px){
     body{
-        font-size: 10px;
+        font-size: 16px;
     }
     .text-small{
-        font-size: 10px !important;
+        font-size: 16px !important;
     }
     .text-medium{
-        font-size: 11px !important;
+        font-size: 18px !important;
     }
     .text-large{
-        font-size: 12px !important;
+        font-size: 20px !important;
     }
     .text-xlarge{
-        font-size: 14px !important;
+        font-size: 26px !important;
     }
     .text-larger{
-        font-size: 25px !important;
+        font-size: 46px !important;
     }
 }
 /*************************/
@@ -160,6 +160,9 @@ h6{
 }
 .bg-gray{
     background-color: #faf6f6 !important;
+}
+.bg-transparent{
+    background-color: transparent !important;
 }
 /*************************/
 /******** Margin *********/
