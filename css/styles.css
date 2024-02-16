@@ -6,7 +6,7 @@ header{
     position: relative;
 }
 header{
-    background-image: url(/imgs/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../imgs/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
