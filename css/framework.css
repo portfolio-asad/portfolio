@@ -106,10 +106,10 @@ h6{
 /*************************/
 @media (max-width: 767px){
     body{
-        font-size: 16px;
+        font-size: 13px !important;
     }
     .text-small{
-        font-size: 16px !important;
+        font-size: 13px !important;
     }
     .text-medium{
         font-size: 18px !important;
@@ -121,7 +121,7 @@ h6{
         font-size: 26px !important;
     }
     .text-larger{
-        font-size: 46px !important;
+        font-size: 36px !important;
     }
 }
 /*************************/
@@ -147,7 +147,7 @@ h6{
 }
 
 .bg-primary{
-    background-color: rgba(24, 22, 22, 0.952)!important;
+    background-color: rgba(24, 22, 22, 0.726)!important;
 }
 .bg-secondry{
     background-color: green!important;
