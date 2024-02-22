@@ -27,7 +27,7 @@ section.skill .container .row .box{
     width: 80%;
     height: 65%;
     background-color: rgb(41, 38, 38);
-    padding: 15px 25px 0 35px; 
+    padding: 15px 20px 0 20px; 
 }
 section.skill .container .row .box:hover{
     border: 1px solid white;
