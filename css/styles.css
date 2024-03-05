@@ -12,6 +12,9 @@ header .hero .container .row img{
     border: 1px solid;
     border-radius: 30px;
 }
+header nav .collapse ul li a:hover{
+    border-bottom: 2px solid orange;
+}
 /*************************/
 /****** skill ***********/
 /*************************/
